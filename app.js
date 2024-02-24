@@ -18,11 +18,11 @@ const APP = {
         let nav = document.getElementById('nav'); // Get the nav element
         let link = document.createElement('a'); // Create a new <a> element
         bn.href = `${APP.urls.base}${APP.urls[APP.urls.planets]}`; // Set the href attribute
-        link.textContent = 'OUR PLANETS'; // Set the text content
+        link.textContent = 'OUR PLANETS(click here)'; // Set the text content
         link.classList.add('button'); // Add the 'button' class for styling
         link.setAttribute('data-link', `${APP.urls.base}${APP.urls['planets']}`); // Set the data-link attribute
         bn.append(link);
-        bn.style.width = '200px';
+        bn.style.width = '300px';
         bn.style.height = '30px';
         bn.style.color = 'black';
         bn.style.font = 'italic bold 20px arial,serif';
